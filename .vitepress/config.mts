@@ -17,8 +17,10 @@ export default defineConfig({
         text: '文档列表',
         items: [
           { text: '实例规则', link: '/regulations' },
+          { text: '维护说明', link: '/maintenance' },
         ]
       }
     ],
-  }
+  },
+  lastUpdated: true
 })
