@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '实例规则', link: '/regulations' },
+      { text: '社区准则', link: '/regulations' },
       { text: 'Baka.Ink', link: 'https://baka.ink' }
     ],
 
@@ -16,8 +16,10 @@ export default defineConfig({
       {
         text: '文档列表',
         items: [
-          { text: '实例规则', link: '/regulations' },
-          { text: '维护说明', link: '/maintenance' },
+          { text: '社区准则', link: '/regulations' },
+          { text: '服务条款', link: '/terms-of-service' },
+          { text: '隐私政策', link: '/privacy-policy' },
+          { text: '维护说明', link: '/maintenance' }
         ]
       }
     ],
